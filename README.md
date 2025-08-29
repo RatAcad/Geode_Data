@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a preprocessed dataset (`preprocessed_data.RData`) and comprehensive analysis code (`data_analysis_final.txt`) for a study examining cognitive performance differences between typically developing (TD) and autism spectrum disorder (ASD) participants. The dataset includes behavioral data from a visual discrimination task involving counting flashes, along with demographic information and clinical assessments.
+This repository contains a preprocessed dataset (`preprocessed_data.RData`) and comprehensive analysis code (`data_analysis_final.R`) for a study examining cognitive performance differences between typically developing (TD) and autism spectrum disorder (ASD) participants. The dataset includes behavioral data from a visual discrimination task involving counting flashes, along with demographic information and clinical assessments.
 
 ### Task Description
 
@@ -124,7 +124,7 @@ library(latex2exp)
 3. **Run the analysis script**:
    ```r
 
-   # The analysis code is in data_analysis_final.txt
+   # The analysis code is in data_analysis_final.R
    # You can source it or copy relevant sections as needed
    ```
 
