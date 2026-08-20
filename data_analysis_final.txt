@@ -2018,7 +2018,6 @@ df2 <-  summary2[,c("vinabcstd","srs2total","bistotal","aasp_low_reg_raw","aasp_
 
 df <- cbind(df1,df2)
 df <- df[group_verbal != "flag" & group_verbal!="flag_low_td",]
-df$vinabcstd <- 140 - df$vinabcstd
 
 # cor_test <- cor.test(df$vinabcstd, df$perf)
 df$group_verbal <- factor(df$group_verbal, levels = c("TD", "ASD", "ASD (low verbal)"),ordered = T)
